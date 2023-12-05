@@ -1,4 +1,4 @@
-package programmers.beginners.편지;
+package programmers.beginners.lessons120898;
 
 public class Solution {
     public int solution(String message) {
