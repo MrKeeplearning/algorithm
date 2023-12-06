@@ -1,4 +1,4 @@
-## [양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)
+## [코딩테스트 입문 / 양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)
 
 ### 내 풀이
 

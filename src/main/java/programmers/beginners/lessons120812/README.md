@@ -1,1 +1,1 @@
-## [최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)
+## [코딩테스트 입문 / 최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)
