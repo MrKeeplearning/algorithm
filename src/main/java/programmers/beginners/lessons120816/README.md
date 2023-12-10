@@ -1,4 +1,4 @@
-## [피자 나눠 먹기(3)](https://school.programmers.co.kr/learn/courses/30/lessons/120816)
+## [코딩테스트 입문 / 피자 나눠 먹기(3)](https://school.programmers.co.kr/learn/courses/30/lessons/120816)
 
 ```text
 테스트 1 〉	통과 (0.03ms, 80.1MB)
