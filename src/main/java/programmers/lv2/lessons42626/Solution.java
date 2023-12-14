@@ -11,7 +11,8 @@ public class Solution {
             queue.offer(number);
         }
 
-        while (queue.peek() < K) {
+        // 큐가 비어 있지 않은 경우에만 peek() 메서드를 호출하도록 수정
+        while (!queue.isEmpty() && queue.peek() < K) {
             if (queue.size() < 2) {
                 return -1;
             }
