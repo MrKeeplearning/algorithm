@@ -11,6 +11,7 @@ public class Solution {
             for (int j = i + 1; j < phone_book.length; j++) {
                 if (phone_book[j].startsWith(phone_book[i])) {
                     answer = false;
+                    break;
                 }
             }
         }
