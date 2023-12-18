@@ -60,6 +60,7 @@
 | 2023-12-18  | 120893    | 대문자와 소문자       | 🤔     | 1         |              | `isLowerCase`, `isUpperCase`도 있다!      |
 | 2023-12-18  | 120892    | 암호 해독          |        | 1         |              |                                        |
 | 2023-12-18  | 120862    | 최댓값 만들기 (2)    |        | 1         |              |                                        |
+| 2023-12-18  | 120895    | 인덱스 바꾸기        | 🤔     | 1         |              | 다른 방법들 다시 한 번 숙지하기!                    |
 
 <br/>
 
@@ -73,3 +74,6 @@
 - [타입이 맞지 않는 Wrapper 클래스 타입의 ArrayList를 정수형 타입의 배열로 변환하는 방법]
     - 120850 문자열 정렬하기(1)
     - Stream 외에도 stream을 사용하지 않는 다양한 방법이 존재하기 때문에 정리해둘 것
+- [문자열 내의 특정 문자 swap하기]
+    - 120895 인덱스 바꾸기 참고하기
+    - [geeks for geeks : swapping characters of a string in java](https://www.geeksforgeeks.org/swapping-characters-string-java/)
