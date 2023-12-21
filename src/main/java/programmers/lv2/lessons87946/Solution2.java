@@ -16,7 +16,7 @@ public class Solution2 {
             answer = temp;
         }
         for (int i = 0; i < dungeons.length; i++) {
-            if (visited[i] == false && k >= dungeons[i][0]) {
+            if (!visited[i] && k >= dungeons[i][0]) {
                 visited[i] = true;
                 temp++;
                 k -= dungeons[i][1];
