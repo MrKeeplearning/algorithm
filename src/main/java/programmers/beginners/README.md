@@ -67,6 +67,7 @@
 | 2023-12-22  | 120894    | 영어가 싫어요        | 🤔🤔🤔 | 1         |              | 다시 풀어라... 제대로 이해 못했음                   |
 | 2023-12-22  | 120896    | 한 번만 등장한 문자    | 🤔     | 1         |              | 스트림 활용, 다른 풀이 모두 다시 도전!                |
 | 2023-12-24  | 120902    | 문자열 계산하기       | 🤔     | 1         |              | 스스로 다시 풀어보기!                           |
+| 2023-12-24  | 120904    | 숫자 찾기          |        | 1         |              |                                        |
 
 <br/>
 
@@ -83,3 +84,5 @@
 - [문자열 내의 특정 문자 swap하기]
     - 120895 인덱스 바꾸기 참고하기
     - [geeks for geeks : swapping characters of a string in java](https://www.geeksforgeeks.org/swapping-characters-string-java/)
+- [숫자를 Character로, Character를 숫자로 변환하기]()
+- [숫자를 String으로, String을 숫자로 변환하기]()
