@@ -24,3 +24,20 @@ System.out.println(digit); // 출력: 7
 ---
 
 <br/>
+
+### ✅ StringTokenizer로 토큰의 수 구하기
+
+- `countTokens()`라는 메서드를 사용한다.
+
+```java
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) {
+        String str = "Hello World, we are learning Java.";
+        StringTokenizer st = new StringTokenizer(str);
+
+        System.out.println("Number of words: " + st.countTokens());
+    }
+}
+```
