@@ -3,6 +3,9 @@ package baekjoon.problem10814;
 import java.io.*;
 import java.util.*;
 
+/**
+ * 1차시도 실패
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
