@@ -116,8 +116,10 @@
 | 2024-06-08  | 2292      | 벌집                        | 🤔     | 1         |              | solved.ac CLASS 2                      |
 | 2024-06-08  | 2798      | 블랙잭                       |        | 1         |              | solved.ac CLASS 2                      |
 | 2024-06-08  | 15829     | Hashing                   | 🤔🤔   | 1         |              | solved.ac CLASS 2, 범위 생각하기             |
-| 2024-06-17  | 1987      | 알파벳                       | 🤔🤔🤔 | 1         |              | Hagogaza ✅✅✅✅✅                         |
+| 2024-06-17  | 1987      | 알파벳                       | 🤔🤔🤔 | 1         |              | Hagogaza                               |
 | 2024-06-17  | 1926      | 그림                        | 🤔     | 1         |              | BaaaaaaaaaaarkingDog BFS               |
+| 2024-06-18  | 4179      | 불!                        | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵 ✅✅✅✅✅     |
+| 2024-06-18  | 1422      | 숫자의 신                     | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵 ✅✅✅✅✅     |
 |             | 16234     | 인구 이동                     |        | 1         |              | Hagogaza ✅✅✅✅✅                         |
 |             | 2869      | 달팽이는 올라가고 싶다              |        | 1         |              | solved.ac CLASS 2 ✅✅✅✅✅                |
 |             | 7569      | 토마토                       |        | 1         |              | ✅✅✅✅✅                                  |
