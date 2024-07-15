@@ -20,7 +20,7 @@ public class Main {
             numbers.add(br.readLine());
         }
 
-        backtrack(numbers, "", n, pq);
+//        backtrack(numbers, "", n, pq);
         bw.write(String.valueOf(pq.poll()));
 
         br.close();
