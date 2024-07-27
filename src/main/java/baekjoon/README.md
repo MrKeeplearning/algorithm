@@ -118,9 +118,10 @@
 | 2024-06-08  | 15829     | Hashing                   | 🤔🤔   | 1         |              | solved.ac CLASS 2, 범위 생각하기             |
 | 2024-06-17  | 1987      | 알파벳                       | 🤔🤔🤔 | 1         |              | Hagogaza                               |
 | 2024-06-17  | 1926      | 그림                        | 🤔     | 1         |              | BaaaaaaaaaaarkingDog BFS               |
-| 2024-06-18  | 4179      | 불!                        | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵 ✅✅✅✅✅     |
-| 2024-06-18  | 1422      | 숫자의 신                     | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵 ✅✅✅✅✅     |
+| 2024-06-18  | 4179      | 불!                        | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵           |
+| 2024-06-18  | 1422      | 숫자의 신                     | 🤔🤔🤔 | 1         |              | BaaaaaaaaaaarkingDog BFS, 🥵           |
 | 2024-07-15  | 2309      | 일곱 난쟁이                    | 🤔     | 1         |              | Hagogaza Week 1, 브루트포스                 |
+| 2024-07-28  | 4673      | 셀프 넘버                     | 🤔     | 1         |              | Hagogaza Week 1                        |
 |             | 16234     | 인구 이동                     |        | 1         |              | Hagogaza ✅✅✅✅✅                         |
 |             | 2869      | 달팽이는 올라가고 싶다              |        | 1         |              | solved.ac CLASS 2 ✅✅✅✅✅                |
 |             | 7569      | 토마토                       |        | 1         |              | ✅✅✅✅✅                                  |
