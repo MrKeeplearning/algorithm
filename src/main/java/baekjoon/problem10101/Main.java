@@ -11,16 +11,16 @@ public class Main {
         int angle1 = Integer.parseInt(br.readLine());
         int angle2 = Integer.parseInt(br.readLine());
         int angle3 = Integer.parseInt(br.readLine());
-        boolean summation = angle1 + angle2 + angle3 == 180;
+        int sum = angle1 + angle2 + angle3;
 
-        if (angle1 == 60 && angle2 == 60 && angle3 == 60) {
-            answer = "Equilateral";
-        } else if (summation && angle1 == angle2 || angle1 == angle3 || angle2 == angle3) {
-            answer = "Isosceles";
-        } else if (summation) {
-            answer = "Scalene";
-        } else {
+        if (sum != 180) {
             answer = "Error";
+        } else if (angle1 == 60 && angle2 == 60 && angle3 == 60) {
+            answer = "Equilateral";
+        } else if (angle1 == angle2 || angle1 == angle3 || angle2 == angle3) {
+            answer = "Isosceles";
+        } else {
+            answer = "Scalene";
         }
 
         bw.write(answer);
