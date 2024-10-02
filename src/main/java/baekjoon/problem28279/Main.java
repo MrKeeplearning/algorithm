@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        LinkedList<String> deque = new LinkedList<>();
+        Deque<String> deque = new ArrayDeque<>();
         StringBuilder answer = new StringBuilder();
         int n = Integer.parseInt(br.readLine());
         for (int i = 0; i < n; i++) {
@@ -15,10 +15,10 @@ public class Main {
             String command = st.nextToken();
             switch (command) {
                 case "1":
+                    deque.addFirst(st.nextToken());
+                    break;
                 case "2":
-                    String X = st.nextToken();
-                    if (command.equals("1")) deque.addFirst(X);
-                    else deque.addLast(X);
+                    deque.addLast(st.nextToken());
                     break;
                 case "3":
                     answer.append(!deque.isEmpty() ? deque.removeFirst() + "\n" : "-1\n");
@@ -33,10 +33,10 @@ public class Main {
                     answer.append(deque.isEmpty() ? "1\n" : "0\n");
                     break;
                 case "7":
-                    answer.append(!deque.isEmpty() ? deque.peekFirst() : "-1\n");
+                    answer.append(!deque.isEmpty() ? deque.peekFirst() + "\n" : "-1\n");
                     break;
                 case "8":
-                    answer.append(!deque.isEmpty() ? deque.peekLast() : "-1\n");
+                    answer.append(!deque.isEmpty() ? deque.peekLast() + "\n" : "-1\n");
                     break;
             }
         }
