@@ -1,0 +1,17 @@
+package baekjoon.season01.problem15894;
+
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        Long answer = Integer.parseInt(br.readLine()) * 4L;
+        bw.write(String.valueOf(answer));
+        bw.flush();
+
+        br.close();
+        bw.close();
+    }
+}
