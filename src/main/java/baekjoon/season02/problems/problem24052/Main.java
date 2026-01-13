@@ -1,4 +1,4 @@
-package baekjoon.season02.problems.problem24051;
+package baekjoon.season02.problems.problem24052;
 
 import java.io.*;
 import java.util.*;
@@ -31,37 +31,44 @@ public class Main {
     }
 
     private static String insertionSort(int[] A, int N, int K) {
-        String kthValue;
+        String result;
 
         for (int i = 1; i < N; i++) {
-            int key = A[i]; // 삽입할 값을 보관
+            int key = A[i]; // 삽입할 값 보관
             int j = i - 1;
 
-            // key보다 큰 값은 오른쪽으로 한 칸씩 밀어낸다.
             while (j >= 0 && A[j] > key) {
                 A[j + 1] = A[j];
                 j--;
 
                 count++;
                 if (count == K) {
-                    kthValue = String.valueOf(A[j + 1]);
-                    return kthValue;
+                    result = printArray(A);
+                    return result;
                 }
             }
 
-            // 원래 자리(i)와 최종 위치(j + 1)가 다를 때만 저장 연산을 수행한다.
             if (j + 1 != i) {
-                // j가 멈춘 지점의 바로 오른쪽(j+1)이 key가 들어갈 자리
                 A[j + 1] = key;
+
                 count++;
                 if (count == K) {
-                    kthValue = String.valueOf(A[j + 1]);
-                    return kthValue;
+                    result = printArray(A);
+                    return result;
                 }
             }
         }
 
-        kthValue = "-1";
-        return kthValue;
+        result = "-1";
+        return result;
+    }
+
+    private static String printArray(int[] arr) {
+        StringBuilder sb = new StringBuilder();
+        for (int i : arr) {
+            sb.append(i);
+            sb.append(" ");
+        }
+        return sb.toString();
     }
 }
