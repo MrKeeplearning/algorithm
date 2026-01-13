@@ -1,4 +1,4 @@
-package dsa.ch02_arrays.SelectionSort;
+package dsa.ch02_arrays.Sec03SelectionSort;
 
 import java.io.*;
 import java.util.*;

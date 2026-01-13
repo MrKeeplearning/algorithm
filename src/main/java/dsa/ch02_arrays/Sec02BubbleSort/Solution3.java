@@ -1,4 +1,4 @@
-package dsa.ch02_arrays.BubbleSort;
+package dsa.ch02_arrays.Sec02BubbleSort;
 
 import java.io.*;
 import java.util.*;

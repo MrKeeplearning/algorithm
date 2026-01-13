@@ -1,7 +1,6 @@
-package dsa.ch02_arrays.Arrays;
+package dsa.ch02_arrays.Sec01Arrays;
 
 import java.io.*;
-import java.util.*;
 
 /**
  * Algorithm: Find the lowest value in an array.
